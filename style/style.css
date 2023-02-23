@@ -1,0 +1,163 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2D2D2D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.38px;
+}
+
+.subtitle {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.92px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+.header {
+  margin: 24px 0 -5px 0;
+}
+.header .header__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.header .header__body .header__infobox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header .header__body .header__infobox .header__text {
+  max-width: 155px;
+  padding-left: 21px;
+  margin: 19px 0 0 0;
+  border-left: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-style: italic;
+  font-display: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #2194FF;
+}
+.header .header__body .header__infobox .header__text:hover {
+  text-decoration: underline;
+}
+.header .header__body .header__calling {
+  display: flex;
+  flex-direction: column;
+}
+.header .header__body .header__calling .header__tell {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.header .header__body .header__calling .header__question {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 5px;
+  color: #2194FF;
+}
+
+.intro {
+  position: relative;
+  padding-bottom: 72px;
+}
+.intro .intro__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro .intro__body .intro__textbox {
+  max-width: 535px;
+  padding: 37px 0 0 0;
+}
+.intro .intro__body .intro__textbox .intro__service {
+  display: flex;
+  justify-content: space-between;
+}
+.intro .intro__body .intro__textbox .intro__service .intro__blog .intro__blog-top {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.intro .intro__body .intro__textbox .intro__service .intro__blog .intro__blog-text {
+  font-weight: 300;
+  opacity: 0.5;
+  color: #f1f1f1;
+}
+.intro .intro__body .intro__textbox .intro__title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 63px;
+  color: #2194FF;
+}
+.intro .intro__body .intro__textbox .intro__subtitle {
+  max-width: 300px;
+  position: relative;
+  margin: 14px 0 40px 0;
+  color: #f1f1f1;
+}
+.intro .intro__body .intro__textbox .intro__arrow-path {
+  position: absolute;
+  top: 230px;
+  left: 550px;
+}
+.intro .intro__body .intro__textbox .intro__btn {
+  position: relative;
+  max-width: 395px;
+  height: 87px;
+  cursor: pointer;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #F1F1F1;
+  background: #2194FF;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border-radius: 11px;
+  border: none;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.intro .intro__body .intro__textbox .intro__btn .btn__dec {
+  position: absolute;
+}
+.intro .intro__body .intro__textbox .intro__btn .btn-dec-1 {
+  top: 9px;
+  left: 9px;
+}
+.intro .intro__body .intro__textbox .intro__btn .btn-dec-2 {
+  bottom: 9px;
+  left: 9px;
+}
+.intro .intro__body .intro__textbox .intro__subbutton {
+  margin: 13px 0 0 13px;
+  color: #f1f1f1;
+}
+.intro .intro__body .intro__imgbox img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}/*# sourceMappingURL=style.css.map */
