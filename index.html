@@ -51,7 +51,7 @@
           <div class="intro__title">Доставим газ за 4 часа</div>
           <div class="intro__subtitle subtitle">в любую точку Москвы и Московской области</div>
           <img src="./img/path.svg" alt="" class="intro__arrow-path">
-          <button class="btn__light"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать доставку газа в газгольдер <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+          <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать доставку газа в газгольдер <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
           <div class="intro__subbutton text">Доставка газа всегда по актуальным ценам</div>
         </div>
         <div class="intro__imgbox"><img src="./img/intro-dec.svg" alt=""></div>
@@ -59,7 +59,7 @@
     </div>
   </section>
   <section class="info">
-    <div class="info__bac"></div>
+    <div class="bac"></div>
     <div class="container">
       <div class="info__title title">Стоимость газа в ваш газгольдер сегодня</div>
       <div class="info__body">
@@ -94,8 +94,269 @@
   </section>
   <section class="about__me">
     <div class="container">
-      <div class="about__me-body"></div>
+      <div class="about__me-title title">Преимущества работы с нашей компанией</div>
+      <div class="about__me-body">
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_1.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Экономия на хранилище </div>
+          <div class="about__me-text text">за счёт собственных цистерн на нашей базе</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_2.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Экономия на транспорте</div>
+          <div class="about__me-text text">более 10 собственный газовозов</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_3.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Поставки напрямую от производителей</div>
+          <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_4.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Любые объёмы поставки качественного газа</div>
+          <div class="about__me-text text">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_5.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Оплата удобным для вас способом</div>
+          <div class="about__me-text text">все газовозы оснащены терминалами для оплаты вашего заказа</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_6.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Чистый газ без примесей</div>
+          <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_7.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Длина заправочных рукавов — 50 метров</div>
+          <div class="about__me-text text">не требуется подъезд автомобиля вплотную к резервуару</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_8.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Доставка сжиженного газа в формате 24/7</div>
+          <div class="about__me-text text">привезем газ в удобное для вас время или же  по графику</div>
+        </div>
+        <div class="about__me-blog">
+          <img src="./img/about__me-img_9.svg" alt="" class="about__me-img">
+          <div class="about__me-subtitle subtitle">Аттестованный персонал</div>
+          <div class="about__me-text text">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</div>
+        </div>
+      </div>
+      <div class="about__me-bottom">
+        <div class="about__me-imgbox">
+          <img src="./img/truck.svg" alt="Truck">
+        </div>
+        <div class="about__me-textbox">
+          <div class="about__me-bottom-title title">Благодаря нашему собственному автопарку мы можем давать гарантию, что доставим <span>за 4 часа</span></div>
+            <a href="#" class="about__me-button">Это сильное конкурентное преимущество, которым мы дорожим</a>
+        </div>
+      </div>
     </div>
   </section>
+  <section class="products">
+    <div class="bac"></div>
+    <div class="container">
+      <div class="products__title title">Выберите свой объём Газовоза</div>
+      <div class="products__body">
+        <div class="products__btns">
+          <button class="products__btn btn_ative" onclick="changeImage('./img/truck-1.svg')">Малый <br> 2000 л.</button>
+          <button class="products__btn" onclick="changeImage('./img/truck-2.svg')">Средний <br> 6000 л.</button>
+          <button class="products__btn" onclick="changeImage('./img/truck-3.svg')">Стандартный <br> 10 000 л.</button>
+          <button class="products__btn" onclick="changeImage('./img/truck-4.svg')">Оптовый <br> 40 000 л.</button>
+        </div>
+        <div class="products__carousel">
+          <img src="./img/truck-1.svg" alt="Small-Truck" id="bannerImage">
+        </div>
+      </div>
+      <div class="products__btn-prm">
+          <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать газ <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+      </div>
+    </div>
+  </section>
+  <section class="carousel-section">
+    <div class="container">
+      <div class="carousel__title title">Отзывы наших клиентов</div>
+      <div class="carousel__arrows">
+        <img src="./img/arrow__left.svg" alt="<" class="arrow" id="left">
+        <img src="./img/arrow__right.svg" alt=">" class="arrow" id="right">
+      </div>
+      <div class="carousel__body">
+        <div class="carousel__blog">
+          <img src="./img/Ольга И..svg" alt="Ольга И.">
+          <div class="carousel__info">
+            <div class="carousel__subtitle subtitle">Ольга И.</div>
+            <div class="carousel__location">Красногорск</div>
+            <div class="carousel__text text">Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</div>
+          </div>
+        </div>
+        <div class="carousel__blog">
+          <img src="./img/Ольга И..svg" alt="Ольга И.">
+          <div class="carousel__info">
+            <div class="carousel__subtitle subtitle">Ольга И.</div>
+            <div class="carousel__location">Красногорск</div>
+            <div class="carousel__text text">Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</div>
+          </div>
+        </div>
+        <div class="carousel__blog">
+          <img src="./img/Ольга И..svg" alt="Ольга И.">
+          <div class="carousel__info">
+            <div class="carousel__subtitle subtitle">Ольга И.</div>
+            <div class="carousel__location">Красногорск</div>
+            <div class="carousel__text text">Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</div>
+          </div>
+        </div>
+        <div class="carousel__blog">
+          <img src="./img/Ольга И..svg" alt="Ольга И.">
+          <div class="carousel__info">
+            <div class="carousel__subtitle subtitle">Ольга И.</div>
+            <div class="carousel__location">Красногорск</div>
+            <div class="carousel__text text">Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</div>
+          </div>
+        </div>
+        <div class="carousel__blog">
+          <img src="./img/Ольга И..svg" alt="Ольга И.">
+          <div class="carousel__info">
+            <div class="carousel__subtitle subtitle">Ольга И.</div>
+            <div class="carousel__location">Красногорск</div>
+            <div class="carousel__text text">Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__bottom">
+        <div class="carousel__lune" id="line"></div>
+        <div class="carousel__lune" id="line"></div>
+        <div class="carousel__lune" id="line"></div>
+        <div class="carousel__lune" id="line"></div>
+        <div class="carousel__lune" id="line"></div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="bac"></div>
+    <div class="container">
+      <div class="faq__title title">Ответы на часто задаваемые вопросы</div>
+      <div class="faq__body">
+        <div class="faq__item">
+          <div class="faq__visible">
+            <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
+            <div class="faq__subtitle">Есть ли у вас инженеры в компании?</div>
+          </div>
+          <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__visible">
+            <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
+            <div class="faq__subtitle">Делаете ли вы отчистку газгольдера?</div>
+          </div>
+          <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__visible">
+            <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
+            <div class="faq__subtitle">А вы не испортите газон у меня и соседей?</div>
+          </div>
+          <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__visible">
+            <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
+            <div class="faq__subtitle">Вы предоставляете документы для субсидий?</div>
+          </div>
+          <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
+        </div>
+        <div class="faq__item">
+          <div class="faq__visible">
+            <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
+            <div class="faq__subtitle">Смогу ли я заказать во время праздников?</div>
+          </div>
+          <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="register">
+    <div class="container">
+      <div class="register__body">
+        <div class="register__textbox">
+          <div class="regsiter__title title">Не нашли ответа на свой вопрос задайте их нашему специалисту </div>
+          <input type="name" class="register__input" placeholder="Имя">
+          <input type="tel" class="register__input" placeholder="телефон">
+          <textarea class="register__input" placeholder="ваш вопрос"></textarea>
+          <button class="btn">Задать вопрос </button>
+        </div>
+        <div class="register__imgbox">
+          <img src="./img/Roman Sh.svg" alt="Роман Ш">
+          <div class="about__roman">
+            <div class="dec"></div>
+            <div class="register__name">Роман Ш.</div>
+            <div class="register__job-title">Старший менеджер</div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="partner">
+          <img src="./img/роснефть.svg" alt="">
+        </div>
+        <div class="partner">
+          <img src="./img/neft.svg" alt="">
+        </div>
+        <div class="partner">
+          <img src="./img/башнефть.svg" alt="">
+        </div>
+        <div class="partner">
+          <img src="./img/транснефть.svg" alt="">
+        </div>
+        <div class="partner">
+          <img src="./img/gasprom.svg" alt="">
+        </div>
+        <div class="partner">
+          <img src="./img/татнефть.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__title title">Закажи прямо сейчас и получи бесплатную установку телеметрии</div>
+      <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать газ <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+      <div class="footer__body">
+        <div class="footer__textbox">
+          <div class="footer__textbox-title title">Посетите наш уютный офис</div>
+          <div class="footer__subtitle">где мы сможем вас полностью проконсультировать по всем  вопросам</div>
+          <div class="line"></div>
+          <div class="footer__about">
+            <div class="about__title">Офис</div>
+            <a href="#" class="about__subtitle">Видное , Белокаменное шоссе, 20</a>
+          </div>
+          <div class="footer__about">
+            <div class="about__title">Телефон:</div>
+            <a href="#" class="about__subtitle">+7 926 330-68-34</a>
+          </div>
+        </div>
+        <div class="footer__map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace351947168e11c2459f2963cdf1be56093579b855a76cf11694076ae20603c1&amp;source=constructor" frameborder="0"></iframe>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#" class="footer__link">Политика конфиденциальности</a>
+        <a href="#" class="footer__link">Согласие на обработку персональных данных</a>
+      </div>
+    </div>
+  </footer>
+  <!-- popup -->
+  <div class="popup">
+    <div class="popup__body">
+      <div class="popup__blog">
+        <div class="popup__item">
+          <div class="popup__title"><span>Доставим газ <br> за 4 часа</span> <img src="./img/close.svg" alt="X" class="popup__close"></div>
+          <input type="name" class="popup__input"placeholder="имя">
+          <input type="tel" class="popup__input" placeholder="телефон">        
+          <a href="./thanks-page/index.html" class="btn__light"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать доставку газа <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></a>
+        </div>
+        <div class="popup__subtitle">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с условиями политики конфиденциальности</div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
 </body>
 </html>
