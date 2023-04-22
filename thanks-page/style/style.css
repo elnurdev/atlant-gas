@@ -1,0 +1,159 @@
+html, body {
+  height: 94%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2D2D2D;
+  color: #f1f1f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.38px;
+}
+
+.subtitle {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.92px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+.btn__light {
+  position: relative;
+  max-width: 395px;
+  height: 87px;
+  padding: 0 9px;
+  cursor: pointer;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #F1F1F1;
+  background: #2194FF;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border-radius: 11px;
+  border: none;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.btn__light .btn__dec {
+  position: absolute;
+  left: 9px;
+  right: 9px;
+}
+.btn__light .btn-dec-1 {
+  top: 9px;
+}
+.btn__light .btn-dec-2 {
+  bottom: 9px;
+}
+
+.intro__subbutton {
+  margin: 13px 0 0 13px;
+  color: #f1f1f1;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 8px 35px 10px 33px;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #2194FF;
+  color: #f1f1f1;
+}
+
+.bac {
+  width: 100%;
+  height: 560px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #2194FF;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.header {
+  margin: 24px 0 -5px 0;
+}
+.header .header__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.header .header__body .header__infobox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header .header__body .header__calling {
+  display: flex;
+  flex-direction: column;
+}
+.header .header__body .header__calling .header__tell {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.header .header__body .header__calling .header__question {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 5px;
+  color: #2194FF;
+}
+
+.thanks {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thanks .title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+}
+.thanks .subtitle {
+  text-align: center;
+  max-width: 416px;
+  margin: 20px 0 51px 0;
+}
+.thanks .btn__light {
+  text-decoration: none;
+  width: 362px;
+}
+.thanks .btn__light img {
+  max-width: 343px;
+}/*# sourceMappingURL=style.css.map */
