@@ -9,7 +9,7 @@
   <link rel="website icon" type="svg" href="./img/Logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -49,9 +49,9 @@
             </div>
           </div>
           <div class="intro__title">Доставим газ за 4 часа</div>
-          <div class="intro__subtitle subtitle">в любую точку Москвы и Московской области</div>
+          <div class="intro__subtitle subtitle">в любую точку <span>Москвы</span> и Московской области</div>
           <img src="./img/path.svg" alt="" class="intro__arrow-path">
-          <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать доставку газа в газгольдер <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+          <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> <span>Заказать доставку газа <br> в газгольдер</span> <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
           <div class="intro__subbutton text">Доставка газа всегда по актуальным ценам</div>
         </div>
         <div class="intro__imgbox"><img src="./img/intro-dec.svg" alt=""></div>
@@ -86,7 +86,7 @@
         <div class="info__textbox">
           <div class="info__textbox-title title">Бутан</div>
           <div class="info__textbox-subtitle subtitle">от 16 рублей за литр</div>
-          <div class="info__textbox-text text">Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях</div>
+          <div class="info__textbox-text text">Испарение Бутана происходит только до 0 градусов и годится для использования в тёплое время года</div>
           <a href="#" class="btn">Заказать</a>
         </div>
       </div>
@@ -97,49 +97,85 @@
       <div class="about__me-title title">Преимущества работы с нашей компанией</div>
       <div class="about__me-body">
         <div class="about__me-blog">
-          <img src="./img/about__me-img_1.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Экономия на хранилище </div>
-          <div class="about__me-text text">за счёт собственных цистерн на нашей базе</div>
+          <div class="interior__box">
+            <img src="./img/about__me-img_1.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Экономия <br> на хранилище </div>
+            <div class="about__me-text text">за счёт собственных цистерн на нашей базе</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_2.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Экономия на транспорте</div>
-          <div class="about__me-text text">более 10 собственный газовозов</div>
+          <div class="interior__box">
+            <img src="./img/about__me-img_2.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Экономия <br> на транспорте</div>
+            <div class="about__me-text text">более 10 собственный газовозов</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_3.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Поставки напрямую от производителей</div>
-          <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+          <div class="interior__box">
+            <img src="./img/about__me-img_3.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Поставки напрямую от производителей</div>
+            <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+        </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_4.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Любые объёмы поставки качественного газа</div>
-          <div class="about__me-text text">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</div>
+          <div class="interior__box">
+            <img src="./img/about__me-img_4.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Любые объёмы поставки качественного газа</div>
+            <div class="about__me-text text">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_5.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Оплата удобным для вас способом</div>
-          <div class="about__me-text text">все газовозы оснащены терминалами для оплаты вашего заказа</div>
+          <div class="interior__box-top">
+            <img src="./img/about__me-img_5.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Оплата удобным для вас способом</div>
+            <div class="about__me-text text">все газовозы оснащены терминалами для оплаты вашего заказа</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_6.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Чистый газ без примесей</div>
-          <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+          <div class="interior__box-top">
+            <img src="./img/about__me-img_6.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Чистый газ без примесей</div>
+            <div class="about__me-text text">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_7.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Длина заправочных рукавов — 50 метров</div>
-          <div class="about__me-text text">не требуется подъезд автомобиля вплотную к резервуару</div>
+          <div class="interior__box-top">
+            <img src="./img/about__me-img_7.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Длина заправочных рукавов — 50 метров</div>
+            <div class="about__me-text text">не требуется подъезд автомобиля вплотную к резервуару</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_8.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Доставка сжиженного газа в формате 24/7</div>
-          <div class="about__me-text text">привезем газ в удобное для вас время или же  по графику</div>
+          <div class="interior__box-top">
+            <img src="./img/about__me-img_8.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Доставка сжиженного газа в формате 24/7</div>
+            <div class="about__me-text text">привезем газ в удобное для вас время или же  по графику</div>
+          </div>
         </div>
         <div class="about__me-blog">
-          <img src="./img/about__me-img_9.svg" alt="" class="about__me-img">
-          <div class="about__me-subtitle subtitle">Аттестованный персонал</div>
-          <div class="about__me-text text">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</div>
+          <div class="interior__box-top">
+            <img src="./img/about__me-img_9.svg" alt="" class="about__me-img">
+          </div>
+          <div class="interior__box">
+            <div class="about__me-subtitle subtitle">Аттестованный персонал</div>
+            <div class="about__me-text text">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</div>
+          </div>
         </div>
       </div>
       <div class="about__me-bottom">
@@ -250,7 +286,7 @@
           </div>
           <div class="faq__text text">За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям</div>
         </div>
-        <div class="faq__item">
+        <div class="faq__item faq__active">
           <div class="faq__visible">
             <svg class="faq__arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" /></svg>            
             <div class="faq__subtitle">А вы не испортите газон у меня и соседей?</div>
@@ -298,10 +334,10 @@
           <img src="./img/роснефть.svg" alt="">
         </div>
         <div class="partner">
-          <img src="./img/neft.svg" alt="">
+          <img src="./img/башнефть.svg" alt="">
         </div>
         <div class="partner">
-          <img src="./img/башнефть.svg" alt="">
+          <img src="./img/neft.svg" alt="">
         </div>
         <div class="partner">
           <img src="./img/транснефть.svg" alt="">
@@ -309,7 +345,7 @@
         <div class="partner">
           <img src="./img/gasprom.svg" alt="">
         </div>
-        <div class="partner">
+        <div class="partner" style="width: 160px;">
           <img src="./img/татнефть.svg" alt="">
         </div>
       </div>
@@ -318,11 +354,13 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__title title">Закажи прямо сейчас и получи бесплатную установку телеметрии</div>
-      <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать газ <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+      <div class="btnbox">
+        <button class="btn__light popup__btn"><img src="./img/btn-bottom.svg" alt="" class="btn__dec btn-dec-1"> Заказать газ <img src="./img/btn-top.svg" alt="" class="btn__dec btn-dec-2"></button>
+      </div>
       <div class="footer__body">
         <div class="footer__textbox">
           <div class="footer__textbox-title title">Посетите наш уютный офис</div>
-          <div class="footer__subtitle">где мы сможем вас полностью проконсультировать по всем  вопросам</div>
+          <div class="footer__subtitle">где мы сможем вас полностью проконсультировать по всем <span>вопросам</span></div>
           <div class="line"></div>
           <div class="footer__about">
             <div class="about__title">Офис</div>
