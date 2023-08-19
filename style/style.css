@@ -386,6 +386,7 @@ body {
 }
 .about__me .about__me-bottom .about__me-textbox .about__me-button:hover {
   opacity: 0.8;
+  border-radius: 20px;
 }
 
 .products {
@@ -924,5 +925,83 @@ body {
   .intro .intro__body .intro__imgbox img {
     height: 430px;
     right: -280px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .btn {
+    font-size: 16px;
+  }
+  .btn__light {
+    width: 260px;
+    height: 70px;
+    font-size: 16px;
+  }
+  .btn__light img {
+    width: 246px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text {
+    font-size: 13px;
+  }
+  .header__body .header__infobox .header__text {
+    font-size: 14px;
+  }
+  .header__body .header__calling .header__question {
+    font-size: 14px;
+  }
+  .intro .intro__body .intro__imgbox img {
+    height: 430px;
+    right: -315px;
+  }
+  .intro .intro__body .intro__textbox {
+    max-width: 480px;
+  }
+  .intro .intro__body .intro__textbox .intro__title {
+    font-size: 58px;
+  }
+  .intro .intro__body .intro__textbox .intro__arrow-path {
+    left: 315px;
+  }
+  .info__body .info__textbox-title {
+    font-size: 30px;
+  }
+  .about__me .about__me-bottom .about__me-imgbox {
+    width: 496px;
+  }
+  .about__me .about__me-bottom .about__me-textbox {
+    max-width: 511px;
+  }
+  .products__body .products__btns .products__btn {
+    width: 150px;
+    font-size: 16px;
+  }
+  .products .products__btn-prm .btn__light {
+    width: 260px;
+    height: 70px;
+  }
+  .products .products__btn-prm .btn__light img {
+    width: 246px;
+  }
+  .faq .container .faq__body .faq__item .faq__visible .faq__subtitle {
+    font-size: 15px;
+  }
+  .footer .container .footer__body .footer__textbox {
+    padding: 35px;
+  }
+  .footer .container .footer__body .footer__textbox .footer__subtitle {
+    font-size: 16px;
+  }
+  .footer .container .footer__body .footer__textbox .footer__about .about__subtitle {
+    font-size: 16px;
+  }
+  .footer .container .footer__bottom .footer__link {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
