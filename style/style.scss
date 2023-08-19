@@ -389,6 +389,7 @@ body {
       }
       .about__me-button:hover {
         opacity: .8;
+        border-radius: 20px;
       }
     }
   }
@@ -939,6 +940,148 @@ body {
         img {
           height: 430px;
           right: -280px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .btn {
+    font-size: 16px;
+  }
+
+  .btn__light {
+    width: 260px;
+    height: 70px;
+    font-size: 16px;
+    img {
+      width: 246px;
+    }
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .header {
+    &__body {
+      .header__infobox {
+        .header__text {
+          font-size: 14px;
+        }
+      }
+      .header__calling {
+        .header__question {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .intro {
+    .intro__body {
+      .intro__imgbox {
+        img {
+          height: 430px;
+          right: -315px;
+        }
+      }
+      .intro__textbox {
+        max-width: 480px;
+        .intro__title {
+          font-size: 58px;
+        }
+        .intro__arrow-path {
+          left: 315px;
+        }
+      }
+    }
+  }
+
+  .info {
+    &__body {
+      .info__textbox {
+        &-title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .about__me {
+    .about__me-bottom {
+      .about__me-imgbox {
+        width: 496px;
+      }
+      .about__me-textbox {
+        max-width: 511px;
+      }
+    }
+  }
+
+  .products {
+    &__body {
+      .products__btns {
+        .products__btn {
+          width: 150px;
+          font-size: 16px;
+        }
+      }
+    }
+    .products__btn-prm {
+      .btn__light {
+        width: 260px;
+        height: 70px;
+        img {
+          width: 246px;
+        }
+      }
+    }
+  }
+
+  .faq {
+    .container {
+      .faq__body {
+        .faq__item {
+          .faq__visible {
+            .faq__subtitle {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      .footer__body {
+        .footer__textbox {
+          padding: 35px;
+          .footer__subtitle {
+            font-size: 16px;
+          }
+          .footer__about {
+            .about__subtitle {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .footer__bottom {
+        .footer__link {
+          font-size: 12px;
         }
       }
     }
